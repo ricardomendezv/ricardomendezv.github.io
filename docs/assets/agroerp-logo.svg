@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 82" width="320" height="82">
+  
+  <!-- Leaf icon -->
+  <g transform="translate(14,62)">
+    <path d="M0,0 C5,-25 30,-40 55,-38 C50,-15 30,0 0,0Z" fill="#558B2F" opacity="0.9"/>
+    <path d="M0,0 C10,-20 25,-30 55,-38" stroke="#33691E" stroke-width="1.5" fill="none" opacity="0.55"/>
+  </g>
+  <!-- AgroERP -->
+  <text x="74" y="60" font-family="'Montserrat', sans-serif" font-size="44" letter-spacing="-1">
+    <tspan font-weight="500" fill="#558B2F">Agro</tspan><tspan font-weight="700" fill="#2B2D42">ERP</tspan>
+  </text>
+</svg>
