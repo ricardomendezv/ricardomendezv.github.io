@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080f1c">
   <title>Ricardo Mendez Vargas — Software & Data Engineer</title>
-  <meta name="description" content="Software and data engineer based in Chile. Explore KiMouse, KiBoard for Android and Windows, AgroERP Manager, AgroERP Website, and production engineering experience.">
+  <meta name="description" content="Software & Data Engineer in Chile: Python, SQL, Apache Spark, Snowflake, Django, LLM integration and Docker. Comscore experience and published Android/Windows products.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Ricardo Mendez Vargas — Software & Data Engineer">
-  <meta property="og:description" content="Data systems, practical AI, and software from idea to production. Selected work and experience.">
+  <meta property="og:description" content="Software & Data Engineer: production data pipelines, applied AI, and published products. Based in Chile; working in Spanish and English.">
+  <meta property="og:url" content="https://ricardomendezv.github.io/">
+  <meta property="og:image" content="https://ricardomendezv.github.io/assets/ricardo-retrato.webp">
+  <link rel="canonical" href="https://ricardomendezv.github.io/">
   <meta name="color-scheme" content="dark">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" hreflang="en" href="./index.html">
   <link rel="alternate" hreflang="es" href="./es.html">
-  <link rel="stylesheet" href="./styles.css?v=20261029-education">
-  <link rel="stylesheet" href="./themes.css">
+  <link rel="stylesheet" href="./styles.css?v=20261029-profile">
+  <link rel="stylesheet" href="./themes.css?v=20261029-profile">
   <script src="./theme.js"></script>
   <script src="./language.js" defer></script>
 </head>
@@ -24,16 +27,16 @@
     <div class="shell header-inner">
       <a class="brand" href="#home" aria-label="Ricardo Mendez Vargas, home"><span class="monogram" aria-hidden="true">rm<span>.</span></span><span class="brand-name">Ricardo Mendez Vargas</span></a>
       <nav aria-label="Main navigation">
-        <a href="#work">Work</a>
-        <a href="#expertise">Expertise</a>
         <a href="#experience">Experience</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Work</a>
         <a href="#about">About</a>
         <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
     <div class="shell appearance-bar" hidden>
       <fieldset class="mode-switch"><legend class="visually-hidden">Appearance</legend><button type="button" data-mode="dark" aria-pressed="true">Dark</button><button type="button" data-mode="light" aria-pressed="false">Light</button></fieldset>
-      <label for="theme-select">Theme</label><select id="theme-select"><option value="azure" selected>Midnight</option><option value="silver">Graphite</option><option value="titanium">Carbon</option><option value="iris">Nebula</option><option value="arctic">Deep Sea</option></select>
+      <div class="theme-controls"><label for="theme-select">Theme</label><select id="theme-select"><option value="azure" selected>Midnight</option><option value="silver">Graphite</option><option value="titanium">Carbon</option><option value="iris">Nebula</option><option value="arctic">Deep Sea</option></select></div>
       <div class="language-controls"><label for="language-select">Language</label><select id="language-select"><option value="en" selected>English</option><option value="es">Español</option></select></div>
     </div>
     <noscript><div class="shell language-fallback"><a href="./index.html" lang="en" hreflang="en">English</a> · <a href="./es.html" lang="es" hreflang="es">Español</a></div></noscript>
@@ -41,31 +44,56 @@
 
   <main id="main">
     <section class="hero shell" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Software & Data Engineer · Chile</p>
-        <h1 id="hero-title">Complex problems.<br><span class="serif">Working solutions.</span></h1>
-        <p class="hero-description">I turn data, software, and applied AI into useful products. From understanding the problem to building, shipping, and keeping things running.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-          <a class="text-link" href="./assets/ricardo-mendez-cv-en.pdf" download>Download CV <span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="hero-footnote"><span class="small-rule" aria-hidden="true"></span> Python, PySpark, Snowflake & a practical approach to AI.</div>
-      </div>
       <aside class="profile-card" aria-label="Meet Ricardo">
         <div class="portrait-frame"><img src="./assets/ricardo-retrato.webp" alt="Ricardo Mendez Vargas" width="336" height="336" fetchpriority="high"></div>
         <div class="profile-card-body">
-          <p class="eyebrow">Hello, I'm Ricardo</p>
-          <p class="profile-statement">An engineer who connects<br>the details to the bigger picture.</p>
+          <p class="eyebrow">Ricardo Mendez Vargas</p>
+          <p class="profile-statement">Software & Data Engineer</p>
+          <p class="profile-summary">10+ years across software, data, electronics, and technical project leadership.</p>
           <div class="profile-current"><span class="status-dot" aria-hidden="true"></span><div><span class="micro-label">Currently</span><p>Software Engineer at Comscore</p></div></div>
         </div>
+        <div class="profile-links"><a class="text-link" href="./assets/ricardo-mendez-cv-en.pdf" download>Download CV <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/ricardomendezv" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
         <span class="card-corner" aria-hidden="true">↗</span>
       </aside>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Software & Data Engineer · Chile</p>
+        <h1 id="hero-title">Complex problems.<br><span class="serif">Working solutions.</span></h1>
+        <p class="hero-description">I build production data pipelines at Comscore and develop software from requirements to release. My work connects Python, SQL, distributed processing, and applied AI with practical business needs.</p>
+        <p class="hero-availability">Chile · Remote opportunities · Spanish & English</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#experience">View experience <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-footnote"><span class="small-rule" aria-hidden="true"></span> Python · SQL · Apache Spark / PySpark · Snowflake · Django · Docker</div>
+      </div>
     </section>
 
     <div class="capability-strip"><div class="shell strip-inner"><span>Data engineering</span><span class="strip-plus" aria-hidden="true">+</span><span>Applied AI</span><span class="strip-plus" aria-hidden="true">+</span><span>Product development</span><span class="strip-plus" aria-hidden="true">+</span><span>From concept to production</span></div></div>
 
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="shell experience-layout">
+        <div class="experience-heading"><p class="eyebrow section-index">01 / Experience</p><h2 id="experience-title">A career in<br><span class="serif">making it work.</span></h2><p>From electronics and IoT to software, data platforms, and applied AI.</p><a class="text-link" href="./assets/ricardo-mendez-cv-en.pdf" download>Get the full CV <span aria-hidden="true">↗</span></a></div>
+        <div class="timeline">
+          <article class="timeline-item"><p class="timeline-date"><time datetime="2022-12">Dec 2022</time> — Present <span class="current-label">Current</span></p><h3>Software Engineer</h3><p class="timeline-company">Comscore, Inc. <span>· Remote</span></p><ul class="experience-highlights"><li>Develop and operate international web data collection and SERP extraction pipelines for digital audience measurement.</li><li>Optimize Apache Spark / PySpark and Hadoop processing with Snowflake and Snowpark; build Streamlit tools for self-service analytics.</li><li>Develop AI agent workflows, investigate legacy software, and deploy services with Docker, Docker Swarm, Portainer, and CI/CD.</li></ul></article>
+          <article class="timeline-item"><p class="timeline-date"><time datetime="2026-01">Jan 2026</time> — Present</p><h3>Independent Product Developer</h3><p class="timeline-company">Self-employed</p><p>KiMouse and KiBoard: mobile and desktop products, UX design, AI-assisted engineering, testing, complete Google Play publication management, and release iterations.</p></article>
+          <article class="timeline-item"><p class="timeline-date"><time datetime="2017-05">May 2017</time> — <time datetime="2022-11">Nov 2022</time></p><h3>IT & IoT Project Developer</h3><p class="timeline-company">INTELIX Chile</p><p>Delivered AgroERP with Python and Django, from requirements and data modeling to deployment on Google Cloud. Built reporting tools with Node-RED and JavaScript, alongside IoT architecture and firmware.</p></article>
+          <article class="timeline-item"><p class="timeline-date"><time datetime="2011-06">Jun 2011</time> — <time datetime="2017-05">May 2017</time></p><h3>Electronics & Innovation</h3><p class="timeline-company">Redd System / Tastets System</p><p>Progressed from Electronics Engineer to Supervisor and Head of Electronics & Innovation. Led teams and the GPS equipment roadmap; developed device integrations, software, and firmware.</p></article>
+          <details class="earlier-experience"><summary>Earlier experience <span aria-hidden="true">+</span></summary><div><article><p class="timeline-date">Jul 2009 — Jun 2011</p><h3>Electronics Project Specialist</h3><p class="timeline-company">FAMAE</p><p>Reverse engineering of legacy military electronics, hardware diagnostics, recovered technical documentation, test fixtures, and repair validation tools.</p></article><article><p class="timeline-date">Mar 2006 — Jun 2008</p><h3>Electronics Technician — CostaDigital</h3><p class="timeline-company">Pontificia Universidad Católica de Valparaíso</p></article></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell expertise-section" id="expertise" aria-labelledby="expertise-title">
+      <div class="section-heading"><div><p class="eyebrow section-index">02 / How I can help</p><h2 id="expertise-title">The right tool.<br><span class="serif">A useful outcome.</span></h2></div><p>I connect engineering decisions<br>to what the business actually needs.</p></div>
+      <div class="expertise-list">
+        <div class="expertise-row"><span class="expertise-icon" aria-hidden="true">↳</span><h3>Data engineering<br> & analytics</h3><div><p>Build ETL (Extract, Transform, Load) pipelines, web scraping and distributed data processing for analytics and reporting.</p><p class="tool-list">Python / SQL / Apache Spark (PySpark) / Hadoop / Snowflake / Snowpark / Streamlit</p></div></div>
+        <div class="expertise-row"><span class="expertise-icon" aria-hidden="true">✳</span><h3>Applied AI<br> & automation</h3><div><p>Integrate large language models (LLMs) and AI agents into workflows. Evaluate local and cloud models for generative AI applications and automation.</p><p class="tool-list">LLM integration / AI agents / Ollama / LM Studio / Amazon Bedrock / Amazon Web Services (AWS)</p></div></div>
+        <div class="expertise-row"><span class="expertise-icon" aria-hidden="true">⌘</span><h3>Software<br> & integration</h3><div><p>Build backend applications and APIs, design data models, and deploy containerized services with continuous integration and deployment (CI/CD).</p><p class="tool-list">Django / Docker / Docker Swarm / Portainer / Google Cloud (GCP) / CI/CD / Reverse engineering</p></div></div>
+      </div>
+    </section>
+
     <section class="section shell" id="work" aria-labelledby="work-title">
-      <div class="section-heading"><div><p class="eyebrow section-index">01 / Selected work</p><h2 id="work-title">Built to be <span class="serif">used.</span></h2></div><p>Real products. Different challenges.<br>A hands-on role from idea to delivery.</p></div>
+      <div class="section-heading"><div><p class="eyebrow section-index">03 / Selected work</p><h2 id="work-title">Built to be <span class="serif">used.</span></h2></div><p>Real products. Different challenges.<br>A hands-on role from idea to delivery.</p></div>
 
       <article class="project project-kimouse" aria-labelledby="kimouse-title">
         <div class="project-visual screenshot-visual"><span class="image-label">Android app · Interface captures</span><div class="screenshot-pair"><figure><a href="./assets/kimouse-touchpad.png" target="_blank" rel="noopener noreferrer" aria-label="Open full KiMouse touchpad screenshot"><img src="./assets/kimouse-touchpad.png" alt="Actual KiMouse Android touchpad interface, with connection status and left and right mouse buttons" width="1080" height="2400" loading="lazy"></a><figcaption>Touchpad</figcaption></figure><figure><a href="./assets/kimouse-keyboard.png" target="_blank" rel="noopener noreferrer" aria-label="Open full KiMouse keyboard screenshot"><img src="./assets/kimouse-keyboard.png" alt="Actual KiMouse keyboard interface with modifier keys and the Android on-screen keyboard" width="1080" height="2400" loading="lazy"></a><figcaption>Keyboard</figcaption></figure></div></div>
@@ -138,28 +166,6 @@
           <div><span class="area-index">01</span><div><h3>Distributed data</h3><p>Web data collection, international SERP extraction, and PySpark / Hadoop processing with Snowflake and Snowpark.</p></div></div>
           <div><span class="area-index">02</span><div><h3>Useful intelligence</h3><p>AI-powered capabilities, agent workflows, and Streamlit tools for self-service exploration and reporting.</p></div></div>
           <div><span class="area-index">03</span><div><h3>Production delivery</h3><p>Legacy software investigation, containerized services, and repeatable deployments with Docker, Swarm, Portainer, and CI/CD.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section shell expertise-section" id="expertise" aria-labelledby="expertise-title">
-      <div class="section-heading"><div><p class="eyebrow section-index">02 / How I can help</p><h2 id="expertise-title">The right tool.<br><span class="serif">A useful outcome.</span></h2></div><p>I connect engineering decisions<br>to what the business actually needs.</p></div>
-      <div class="expertise-list">
-        <div class="expertise-row"><span class="expertise-icon" aria-hidden="true">↳</span><h3>Data engineering<br>& analytics</h3><div><p>Build and improve data collection, ETL pipelines, distributed processing, and internal analytics tools.</p><p class="tool-list">Python / SQL / PySpark / Snowflake / Streamlit</p></div></div>
-        <div class="expertise-row"><span class="expertise-icon" aria-hidden="true">✳</span><h3>Applied AI<br>& automation</h3><div><p>Integrate language models and agents into existing workflows, with attention to validation, deployment, and local versus cloud trade-offs.</p><p class="tool-list">AI agents / LLM integration / Ollama / LM Studio / AWS</p></div></div>
-        <div class="expertise-row"><span class="expertise-icon" aria-hidden="true">⌘</span><h3>Software<br>& integration</h3><div><p>Turn business requirements into working applications. Connect systems and reconstruct undocumented software behavior.</p><p class="tool-list">Django / APIs / Docker / CI/CD / Reverse engineering</p></div></div>
-      </div>
-    </section>
-
-    <section class="experience-section" id="experience" aria-labelledby="experience-title">
-      <div class="shell experience-layout">
-        <div class="experience-heading"><p class="eyebrow section-index">03 / Experience</p><h2 id="experience-title">A career in<br><span class="serif">making it work.</span></h2><p>From electronics and IoT to software, data platforms, and applied AI.</p><a class="text-link" href="./assets/ricardo-mendez-cv-en.pdf" download>Get the full CV <span aria-hidden="true">↗</span></a></div>
-        <div class="timeline">
-          <article class="timeline-item"><p class="timeline-date"><time datetime="2022-12">Dec 2022</time> — Present <span class="current-label">Current</span></p><h3>Software Engineer</h3><p class="timeline-company">Comscore, Inc. <span>· Remote</span></p><p>Data collection and analytics pipelines, distributed processing, internal tools, AI workflows, and production operations.</p></article>
-          <article class="timeline-item"><p class="timeline-date"><time datetime="2026-01">Jan 2026</time> — Present</p><h3>Independent Product Developer</h3><p class="timeline-company">Self-employed</p><p>KiMouse and KiBoard: mobile and desktop products, UX design, AI-assisted engineering, testing, complete Google Play publication management, and release iterations.</p></article>
-          <article class="timeline-item"><p class="timeline-date"><time datetime="2017-05">May 2017</time> — <time datetime="2022-11">Nov 2022</time></p><h3>IT & IoT Project Developer</h3><p class="timeline-company">INTELIX Chile</p><p>Agricultural ERP development with Python and Django, reporting tools, Google Cloud deployments, IoT architecture, and firmware.</p></article>
-          <article class="timeline-item"><p class="timeline-date"><time datetime="2011-06">Jun 2011</time> — <time datetime="2017-05">May 2017</time></p><h3>Electronics & Innovation</h3><p class="timeline-company">Redd System / Tastets System</p><p>Progressed from Electronics Engineer to Supervisor and Head of Electronics & Innovation. Led teams and the GPS equipment roadmap; developed device integrations, software, and firmware.</p></article>
-          <details class="earlier-experience"><summary>Earlier experience <span aria-hidden="true">+</span></summary><div><article><p class="timeline-date">Jul 2009 — Jun 2011</p><h3>Electronics Project Specialist</h3><p class="timeline-company">FAMAE</p><p>Reverse engineering of legacy military electronics, hardware diagnostics, recovered technical documentation, test fixtures, and repair validation tools.</p></article><article><p class="timeline-date">Mar 2006 — Jun 2008</p><h3>Electronics Technician — CostaDigital</h3><p class="timeline-company">Pontificia Universidad Católica de Valparaíso</p></article></div></details>
         </div>
       </div>
     </section>

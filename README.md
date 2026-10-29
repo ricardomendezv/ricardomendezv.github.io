@@ -96,7 +96,15 @@ La sección de trabajo también resume ingeniería inversa de electrónica milit
 
 Las nuevas descripciones y las dos menciones de publicación en Google Play se verificaron en el navegador; la sección de ingeniería inversa se adapta a una columna a 360 px y el sitio no presenta desbordamiento horizontal. Las propuestas de futuros proyectos se entregan en la investigación, no como trabajos terminados en la web.
 
-No se añadió URL canónica ni imagen Open Graph absoluta porque la URL final aún no está definida. Se pueden completar al publicar. Revisa el email y el CV antes de compartir el sitio públicamente.
+Cada idioma tiene su URL canónica y Open Graph correspondiente, con el retrato como imagen de vista previa. Son ayudas para buscadores y enlaces compartidos; no representan una validación de un ATS.
+
+## Revisión de presentación y selección
+
+La presentación personal encabeza el orden del HTML y la vista móvil: foto, nombre, especialidad, resumen y cargo actual. En escritorio conserva la tarjeta a la derecha. La experiencia y las especialidades preceden a las fichas extensas de proyectos; el menú permite saltar directamente a cada sección.
+
+Los términos técnicos están dentro del contenido visible y vinculados a experiencia real: Python, SQL, Apache Spark/PySpark, Snowflake/Snowpark, ETL, Django, LLM, agentes de IA, AWS, Google Cloud, Docker y CI/CD. No se añadieron tecnologías, métricas ni cargos sin respaldo. Los «10+ años» describen la trayectoria profesional conjunta en software, datos, electrónica y liderazgo, no diez años de experiencia exclusiva en IA.
+
+El CV descargable conserva el documento original aportado; no se reescribió para una vacante específica. La revisión completa y la matriz de palabras clave se guardan fuera de este repositorio público, en la investigación local. La presencia de términos en una web no garantiza su lectura por un sistema de selección, ni el avance en un proceso.
 
 ## Comprobación de archivos
 

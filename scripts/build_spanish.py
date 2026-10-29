@@ -16,7 +16,7 @@ TRANSLATIONS = {
     "Hello, I'm Ricardo": "Hola, soy Ricardo", "An engineer who connects": "Un ingeniero que conecta", "the details to the bigger picture.": "los detalles con la visión global.",
     "Currently": "Actualmente", "Software Engineer at Comscore": "Ingeniero de Software en Comscore",
     "Data engineering": "Ingeniería de datos", "Applied AI": "IA aplicada", "Product development": "Desarrollo de productos", "From concept to production": "De la idea a producción",
-    "01 / Selected work": "01 / Proyectos destacados", "Built to be": "Hechos para", "used.": "usarse.",
+    "03 / Selected work": "03 / Proyectos destacados", "Built to be": "Hechos para", "used.": "usarse.",
     "Real products. Different challenges.": "Productos reales. Desafíos distintos.", "A hands-on role from idea to delivery.": "Participación directa, de la idea a la entrega.",
     "Android app · Interface captures": "App Android · Capturas de interfaz", "Touchpad": "Panel táctil", "Keyboard": "Teclado", "Mobile & Bluetooth": "Móvil y Bluetooth",
     "Your phone. A mouse.": "Tu teléfono. Un mouse.", "One less thing to carry.": "Una cosa menos que llevar.",
@@ -67,7 +67,7 @@ TRANSLATIONS = {
     "AI agents / LLM integration / Ollama / LM Studio / AWS": "Agentes de IA / Integración de LLM / Ollama / LM Studio / AWS", "& integration": " e integración",
     "Turn business requirements into working applications. Connect systems and reconstruct undocumented software behavior.": "Transformo requisitos de negocio en aplicaciones funcionales. Conecto sistemas y reconstruyo el comportamiento de software sin documentación.",
     "Django / APIs / Docker / CI/CD / Reverse engineering": "Django / APIs / Docker / CI/CD / Ingeniería inversa",
-    "03 / Experience": "03 / Experiencia", "A career in": "Una trayectoria", "making it work.": "resolviendo desafíos.",
+    "01 / Experience": "01 / Experiencia", "A career in": "Una trayectoria", "making it work.": "resolviendo desafíos.",
     "From electronics and IoT to software, data platforms, and applied AI.": "Desde la electrónica y el IoT hasta el software, las plataformas de datos y la IA aplicada.",
     "Get the full CV": "Ver CV completo (inglés)", "Dec 2022": "Dic 2022", "— Present": "— Actualidad", "Current": "Actual", "Software Engineer": "Ingeniero de Software", "· Remote": "· Remoto",
     "Data collection and analytics pipelines, distributed processing, internal tools, AI workflows, and production operations.": "Recolección y análisis de datos, procesamiento distribuido, herramientas internas, flujos con IA y operación de sistemas en producción.",
@@ -95,7 +95,26 @@ TRANSLATIONS = {
     "Or find me on": "También puedes encontrarme en", "Explore color themes": "Explorar temas de color", "Back to top": "Volver al inicio",
 }
 
+TRANSLATIONS.update({
+    "I build production data pipelines at Comscore and develop software from requirements to release. My work connects Python, SQL, distributed processing, and applied AI with practical business needs.": "Desarrollo pipelines de datos en producción en Comscore y software desde los requisitos hasta su publicación. Conecto Python, SQL, procesamiento distribuido e IA aplicada con necesidades concretas del negocio.",
+    "Chile · Remote opportunities · Spanish & English": "Chile · Oportunidades remotas · Español e inglés",
+    "View experience": "Ver experiencia",
+    "Software & Data Engineer": "Ingeniero de Software y Datos",
+    "10+ years across software, data, electronics, and technical project leadership.": "Más de 10 años de trayectoria en software, datos, electrónica y liderazgo de proyectos técnicos.",
+    "Build ETL (Extract, Transform, Load) pipelines, web scraping and distributed data processing for analytics and reporting.": "Desarrollo pipelines ETL (extracción, transformación y carga), web scraping y procesamiento distribuido de datos para analítica y reportes.",
+    "Integrate large language models (LLMs) and AI agents into workflows. Evaluate local and cloud models for generative AI applications and automation.": "Integro modelos de lenguaje de gran tamaño (LLM) y agentes de IA en flujos de trabajo. Evalúo modelos locales y en la nube para aplicaciones de IA generativa y automatización.",
+    "LLM integration / AI agents / Ollama / LM Studio / Amazon Bedrock / Amazon Web Services (AWS)": "Integración de LLM / Agentes de IA / Ollama / LM Studio / Amazon Bedrock / Amazon Web Services (AWS)",
+    "Build backend applications and APIs, design data models, and deploy containerized services with continuous integration and deployment (CI/CD).": "Desarrollo aplicaciones backend y APIs, diseño modelos de datos y despliego servicios en contenedores con integración y despliegue continuos (CI/CD).",
+    "Django / Docker / Docker Swarm / Portainer / Google Cloud (GCP) / CI/CD / Reverse engineering": "Django / Docker / Docker Swarm / Portainer / Google Cloud (GCP) / CI/CD / Ingeniería inversa",
+    "Develop and operate international web data collection and SERP extraction pipelines for digital audience measurement.": "Desarrollo y opero pipelines internacionales de recolección web y extracción de resultados de búsqueda (SERP) para medir audiencias digitales.",
+    "Optimize Apache Spark / PySpark and Hadoop processing with Snowflake and Snowpark; build Streamlit tools for self-service analytics.": "Optimizo el procesamiento con Apache Spark / PySpark y Hadoop, junto con Snowflake y Snowpark; desarrollo herramientas Streamlit para analítica de autoservicio.",
+    "Develop AI agent workflows, investigate legacy software, and deploy services with Docker, Docker Swarm, Portainer, and CI/CD.": "Desarrollo flujos con agentes de IA, analizo software legado y despliego servicios con Docker, Docker Swarm, Portainer y CI/CD.",
+    "Delivered AgroERP with Python and Django, from requirements and data modeling to deployment on Google Cloud. Built reporting tools with Node-RED and JavaScript, alongside IoT architecture and firmware.": "Desarrollé AgroERP con Python y Django, desde los requisitos y el modelado de datos hasta su despliegue en Google Cloud. Creé herramientas de reportes con Node-RED y JavaScript, además de arquitectura IoT y firmware.",
+})
+
 ATTRIBUTES = {
+    "Software & Data Engineer in Chile: Python, SQL, Apache Spark, Snowflake, Django, LLM integration and Docker. Comscore experience and published Android/Windows products.": "Ingeniero de Software y Datos en Chile: Python, SQL, Apache Spark, Snowflake, Django, integración de LLM y Docker. Experiencia en Comscore y productos publicados para Android/Windows.",
+    "Software & Data Engineer: production data pipelines, applied AI, and published products. Based in Chile; working in Spanish and English.": "Ingeniero de Software y Datos: pipelines en producción, IA aplicada y productos publicados. En Chile; trabajo en español e inglés.",
     "Software and data engineer based in Chile. Explore KiMouse, KiBoard for Android and Windows, AgroERP Manager, AgroERP Website, and production engineering experience.": "Ingeniero de software y datos en Chile. Conoce KiMouse, KiBoard para Android y Windows, AgroERP Manager, AgroERP Website y mi experiencia en sistemas en producción.",
     "Data systems, practical AI, and software from idea to production. Selected work and experience.": "Sistemas de datos, IA práctica y software desde la idea hasta producción. Proyectos y experiencia profesional.",
     "Ricardo Mendez Vargas, home": "Ricardo Mendez Vargas, inicio", "Main navigation": "Navegación principal", "Meet Ricardo": "Conoce a Ricardo",
@@ -113,6 +132,8 @@ ATTRIBUTES = {
 }
 
 UNCHANGED = {
+    "Python · SQL · Apache Spark / PySpark · Snowflake · Django · Docker",
+    "Python / SQL / Apache Spark (PySpark) / Hadoop / Snowflake / Snowpark / Streamlit",
     "rm", "Ricardo Mendez Vargas", "English", "Español", "Midnight", "Graphite", "Carbon", "Nebula", "Deep Sea",
     "KiMouse", "KiBoard", "Android", "Bluetooth HID", "Flutter / Dart", "Tauri / Rust", "Svelte", "Google Play", "Microsoft Store",
     "AgroERP Manager", "AgroERP Website", "Python", "Django", "WordPress", "PHP", "HTML / CSS / JavaScript", "Software",
@@ -141,6 +162,8 @@ class Spanish(HTMLParser):
                     self.missing.add(value)
         if tag == "html":
             text = text.replace('lang="en"', 'lang="es"')
+        if tag == "link" and dict(attrs).get("rel") == "canonical" or tag == "meta" and dict(attrs).get("property") == "og:url":
+            text = text.replace('https://ricardomendezv.github.io/"', 'https://ricardomendezv.github.io/es.html"')
         if tag == "option" and dict(attrs).get("value") in ("en", "es"):
             text = re.sub(r"\sselected(?:=\"[^\"]*\")?", "", text)
             if dict(attrs)["value"] == "es":

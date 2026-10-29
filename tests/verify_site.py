@@ -69,7 +69,12 @@ spanish.feed(spanish_html)
 assert any(tag == "html" and attrs.get("lang") == "es" for tag, attrs in spanish.elements)
 assert [attrs["id"] for _, attrs in spanish.elements if "id" in attrs] == ids
 for attribute in ("href", "src"):
-    assert [attrs[attribute] for _, attrs in spanish.elements if attribute in attrs] == [attrs[attribute] for _, attrs in page.elements if attribute in attrs], "Both languages must retain assets, links and anchors"
+    assert [attrs[attribute] for _, attrs in spanish.elements if attribute in attrs and attrs.get("rel") != "canonical"] == [attrs[attribute] for _, attrs in page.elements if attribute in attrs and attrs.get("rel") != "canonical"], "Both languages must retain assets, links and anchors"
+assert any(attrs.get("rel") == "canonical" and attrs.get("href") == "https://ricardomendezv.github.io/" for _, attrs in page.elements)
+assert any(attrs.get("rel") == "canonical" and attrs.get("href") == "https://ricardomendezv.github.io/es.html" for _, attrs in spanish.elements)
+assert any(attrs.get("property") == "og:url" and attrs.get("content") == "https://ricardomendezv.github.io/es.html" for _, attrs in spanish.elements)
+assert html.index('class="profile-card"') < html.index('class="hero-copy"'), "Personal introduction must lead the reading order"
+assert html.index('id="experience"') < html.index('id="expertise"') < html.index('id="work"'), "Experience and skills must precede long project cases"
 assert "language-select" in ids
 assert "Problemas complejos." in spanish_html and "Soluciones que funcionan." in spanish_html
 assert "Ingeniería inversa" in spanish_html and "Descargar CV (inglés)" in spanish_html
